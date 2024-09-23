@@ -1,0 +1,123 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  font-weight: 400;
+
+  /* palette generated with https://coolors.co/6a041d-f5b841-f4ff52-53ff45-c9cdf8*/
+  background-color: #c9cdf8;
+  color: #101a7e;
+  /* border: 1px solid */
+
+}
+
+/* selector targets the body element and justifies text to center */
+body {
+  text-align: center;
+}
+
+/* selector targets h1 element - modifies font, adds a vertical margin */
+h1 {
+  font-size: x-large;
+  font-weight: bold;
+
+  margin: 10px;
+}
+
+/* selector targets h2 element - modifies font size, weight and alignment */
+h2 {
+  font-size: large;
+  font-weight: bold;
+
+  margin: 6px;
+}
+
+/* Selector targets ordered list and removes bullets/numbering. Also removes margin and padding*/
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+/* Selector targets list items and changes display type to inline-block. Also add a little padding all around */
+li {
+  display: inline-block;
+  padding: 5px;
+}
+
+/* Selector targets anchor elements and removes underlines*/
+a {
+  text-decoration: none;
+  font-size: large;
+}
+
+/* selector targets anchor element with pseudo class selector hover - changes link color on hover */
+a:hover,
+button:hover {
+  background-color: #5D68EA;
+  color: #c9cdf8;
+}
+
+/* targets input elements - adds a small botton margin */
+input {
+  margin-bottom: 10px;
+}
+
+/* selector targets about-pic class - change the picture display type, vertical alignmentm & dimensions */
+.about-pic {
+  display: inline;
+  vertical-align:top;
+
+  height: 125px;
+  width: auto;
+}
+
+/* hides the fox on hover */
+/* .about-pic:hover {
+  display: none;
+} */
+
+/* selector targets about-text class - change display type and vertically aligns the text to the bottom, also specifies a width for the text, removes bottom margin so it aligns with the bottom edge of the img */
+.about-text {
+  display: inline-block;
+  vertical-align: bottom;
+  text-align: left;
+
+  /* width is needed so text won't jump down */
+  width: 40%;
+  margin-bottom: 0;
+}
+
+/* targets figure elements and changes the display type, aligns figures (and their figcaption) to the top*/
+figure {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* targets the img elements which are children of figure - changes dimensions */
+figure img {
+  width: 720px;
+  height: auto;
+}
+
+/* targets figcaption elements and changes the font size, style and max  width for the caption*/
+figcaption {
+  font-size: small;
+  font-style: italic;
+  
+
+  max-width: 720px;
+}
+
+/* selector targets footer ID - changes horizontal text alignment and changes to a smaller font size */
+/* Stretches the element to 100% wide */
+
+#footer {
+  text-align: center;
+  font-size: smaller;
+  
+  margin: 0;
+  padding: 0;
+
+  background-color: #5d69ea5a;
+}
