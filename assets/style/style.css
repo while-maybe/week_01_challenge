@@ -100,6 +100,7 @@ figure {
 figure img {
   width: 720px;
   height: auto;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* targets figcaption elements and changes the font size, style and max  width for the caption*/
